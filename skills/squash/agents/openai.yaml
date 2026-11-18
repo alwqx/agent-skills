@@ -1,0 +1,4 @@
+interface:
+  display_name: "Squash Commits"
+  short_description: "以英文编写 commit 和 CHANGELOG，压缩分支提交并同步远端，不创建备份分支"
+  default_prompt: "使用 $squash，以英文编写 commit message 和本次 CHANGELOG 条目，将当前功能分支的多个提交整理为一个完整提交，不创建备份分支，记录原 HEAD 的 SHA。"

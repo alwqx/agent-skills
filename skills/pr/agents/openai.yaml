@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR"
+  short_description: "使用英文 commit 和 CHANGELOG 条目，在功能分支提交推送并创建 PR"
+  default_prompt: "使用 $pr，以英文编写 commit message 和本次 CHANGELOG 条目，将改动提交到功能分支、推送并创建 PR。"
